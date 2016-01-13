@@ -4,6 +4,9 @@ small round PCB with TI TLC5971 12ch 16bit LED-driver and NICHIA NSSM124AT RGB-L
 (originaly designed for Lumifluidus Prototyp)
 
 
+![LED Board 3D view top](export/LED_Board_PCB_brd_3D.png)
+![LED Board 3D view top](export/LED_Board_PCB_brd_3D_2.png)
+
 <!-- file format / software information -->
 ## used software:  
     Application: kicad  
