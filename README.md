@@ -24,22 +24,6 @@ small round PCB with TI TLC5971 12ch 16bit LED-driver and NICHIA NSSM124AT RGB-L
     Inkscape 0.91 r13725
 
 <!-- License info -->
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-    <img alt="Creative Commons License" style="border-width:0"
-        src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
-</a><br />
-<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">
-    LED Board PCB
-</span> by
-<a
-    xmlns:cc="http://creativecommons.org/ns#"
-    href="https://github.com/s-light/LED_Board_PCB"
-    property="cc:attributionName"
-    rel="cc:attributionURL"
->
-    Stefan Krüger (s-light)
-</a>
-is licensed under a<br/>
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-    Creative Commons Attribution 4.0 International License
-</a>.
+![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)   
+LED Board PCB by [Stefan Krüger (s-light)](https://github.com/s-light/LED_Board_PCB) is licensed under a  
+[Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
