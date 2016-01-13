@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name slight_RGBLED_Nichia)(type KiCad)(uri c:\_Local_DATA\_projects\_KiCAD\myPartLib\NICHIA_NSSM124.pretty\)(options "")(descr ""))
+  (lib (name slight_TI_LED-Driver)(type KiCad)(uri c:\_Local_DATA\_projects\_KiCAD\myPartLib\TI_TLC5971.pretty\)(options "")(descr ""))
+)

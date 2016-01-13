@@ -1,0 +1,13 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"D5";"LED-5MM";1;"CQY 99";;;
+2;"C1,C4";"C_1206_HandSoldering";2;"100nF";;;
+3;"R1";"R_1206_HandSoldering";1;"2,7k";;;
+4;"R2";"R_1206_HandSoldering";1;"1k";;;
+5;"C3";"C_1206_HandSoldering";1;"10uF";;;
+6;"R3";"R_1206_HandSoldering";1;"100k";;;
+7;"R4";"R_1206_HandSoldering";1;"39R";;;
+8;"P1";"Socket_Strip_Straight_1x05";1;"IN";;;
+9;"P2";"Socket_Strip_Straight_1x03";1;"OUT";;;
+10;"D1,D2,D3,D4";"NICHIA_NSSM124_HandSoldering";4;"LED_RGB";;;
+11;"U1";"HTSSOP-20_HandSoldering";1;"TLC5971";;;
+12;"Q1";"SOT23_Transistor_Handsoldering_RevB_21Dec2014";1;"NPN BCW66H SMD";;;

@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by Cvpcb (2014-12-04 BZR 5312)-product   date = 21/12/2014 15:04:20
+
+BeginCmp
+TimeStamp = /54875060;
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /548704AD;
+Reference = C3;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54874ADD;
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5487650B;
+Reference = D1;
+ValeurCmp = LED_RGB;
+IdModule  = slight_RGBLED_Nichia:NICHIA_NSSM124_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54935A67;
+Reference = D2;
+ValeurCmp = LED_RGB;
+IdModule  = slight_RGBLED_Nichia:NICHIA_NSSM124_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54935C2E;
+Reference = D3;
+ValeurCmp = LED_RGB;
+IdModule  = slight_RGBLED_Nichia:NICHIA_NSSM124_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54935C43;
+Reference = D4;
+ValeurCmp = LED_RGB;
+IdModule  = slight_RGBLED_Nichia:NICHIA_NSSM124_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /548748C8;
+Reference = D5;
+ValeurCmp = CQY 99;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /548760C9;
+Reference = P1;
+ValeurCmp = IN;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = /54876090;
+Reference = P2;
+ValeurCmp = OUT;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /5487471A;
+Reference = Q1;
+ValeurCmp = NPN BCW66H SMD;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT23_Transistor_Handsoldering_RevB_21Dec2014;
+EndCmp
+
+BeginCmp
+TimeStamp = /548755F2;
+Reference = R1;
+ValeurCmp = 2,7k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54874731;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54874727;
+Reference = R3;
+ValeurCmp = 100k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54875276;
+Reference = R4;
+ValeurCmp = 39R;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /549389BF;
+Reference = U1;
+ValeurCmp = TLC5971;
+IdModule  = slight_TI_LED-Driver:HTSSOP-20_HandSoldering;
+EndCmp
+
+EndListe

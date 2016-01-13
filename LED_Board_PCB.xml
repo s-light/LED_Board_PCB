@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/_Local_DATA/_projects/2014_06_01__LeuchtBaelle/_PCBs/LED_Board_PCB/LED_Board_PCB.sch</source>
+    <date>07/01/2015 11:51:18</date>
+    <tool>Eeschema (2014-12-26 BZR 5338)-product</tool>
+  </design>
+  <components>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>548704AD</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>NPN BCW66H SMD</value>
+      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT23_Transistor_Handsoldering_RevB_21Dec2014</footprint>
+      <libsource lib="infineon__BCW66_NPN" part="BCW66"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5487471A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54874727</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54874731</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>CQY 99</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>548748C8</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54874ADD</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>39R</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54875276</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54875060</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2,7k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>548755F2</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>OUT</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54876090</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>IN</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x05</footprint>
+      <libsource lib="conn" part="CONN_01X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>548760C9</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_RGB</value>
+      <footprint>slight_RGBLED_Nichia:NICHIA_NSSM124_HandSoldering</footprint>
+      <libsource lib="device" part="LED_RGB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5487650B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED_RGB</value>
+      <footprint>slight_RGBLED_Nichia:NICHIA_NSSM124_HandSoldering</footprint>
+      <libsource lib="device" part="LED_RGB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54935A67</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED_RGB</value>
+      <footprint>slight_RGBLED_Nichia:NICHIA_NSSM124_HandSoldering</footprint>
+      <libsource lib="device" part="LED_RGB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54935C2E</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED_RGB</value>
+      <footprint>slight_RGBLED_Nichia:NICHIA_NSSM124_HandSoldering</footprint>
+      <libsource lib="device" part="LED_RGB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54935C43</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TLC5971</value>
+      <footprint>slight_TI_LED-Driver:HTSSOP-20_HandSoldering</footprint>
+      <libsource lib="TI_TLC5971" part="TLC5971"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>549389BF</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Condensateur non polarise</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED_RGB">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_RGB</field>
+      </fields>
+      <pins>
+        <pin num="BA" name="BLUE_ANODE" type="passive"/>
+        <pin num="BC" name="BLUE_CATHODE" type="passive"/>
+        <pin num="GA" name="GREEN_ANODE" type="passive"/>
+        <pin num="GC" name="GREEN_CATHODE" type="passive"/>
+        <pin num="RA" name="RED_ANODE" type="passive"/>
+        <pin num="RC" name="RED_CATHODE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistance</description>
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X05">
+      <footprints>
+        <fp>Pin_Header_Straight_1X05</fp>
+        <fp>Pin_Header_Angled_1X05</fp>
+        <fp>Socket_Strip_Straight_1X05</fp>
+        <fp>Socket_Strip_Angled_1X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="infineon__BCW66_NPN" part="BCW66">
+      <description>BCW66, infineon, NPN, SMD, SOT23</description>
+      <docs>infineon__BCW66__NPN_SMD_SOT23.pdf</docs>
+      <footprints>
+        <fp>SOT23</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BCW66</field>
+        <field name="Footprint">SOT23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TI_TLC5971" part="TLC5971">
+      <aliases>
+        <alias>TLC5971PWPR</alias>
+        <alias>TLC5971PWP</alias>
+      </aliases>
+      <description>TI TLC5971 - 12-Channel, 16-Bit, Enhanced Spectrum, PWM, RGB, LED Driver with 3.3-V Linear Regulator</description>
+      <docs>http://www.ti.com/product/TLC5971/description</docs>
+      <footprints>
+        <fp>HTSSOP-20</fp>
+        <fp>HTSSOP</fp>
+        <fp>HTSSOP-20_Handsoldering</fp>
+        <fp>SMD</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLC5971</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IREF" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUTR0" type="power_out"/>
+        <pin num="4" name="OUTG0" type="power_out"/>
+        <pin num="5" name="OUTB0" type="power_out"/>
+        <pin num="6" name="OUTR1" type="power_out"/>
+        <pin num="7" name="OUTG1" type="power_out"/>
+        <pin num="8" name="OUTB1" type="power_out"/>
+        <pin num="9" name="SDTI" type="input"/>
+        <pin num="10" name="SCKI" type="input"/>
+        <pin num="11" name="SCKO" type="output"/>
+        <pin num="12" name="SDTO" type="output"/>
+        <pin num="13" name="OUTR2" type="power_out"/>
+        <pin num="14" name="OUTG2" type="power_out"/>
+        <pin num="15" name="OUTB2" type="power_out"/>
+        <pin num="16" name="OUTR3" type="power_out"/>
+        <pin num="17" name="OUTG3" type="power_out"/>
+        <pin num="18" name="OUTB3" type="power_out"/>
+        <pin num="19" name="VCC" type="power_in"/>
+        <pin num="20" name="VREG" type="power_in"/>
+        <pin num="ThP" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\_KICAD\kicad-winbuilder-3.4\kicad\share\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\_KICAD\kicad-winbuilder-3.4\kicad\share\library\conn.lib</uri>
+    </library>
+    <library logical="infineon__BCW66_NPN">
+      <uri>C:\_Local_DATA\_projects\_KiCAD\myPartLib\infineon__BCW66_NPN.lib</uri>
+    </library>
+    <library logical="TI_TLC5971">
+      <uri>C:\_Local_DATA\_projects\_KiCAD\myPartLib\TI_TLC5971.pretty\TI_TLC5971.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="D5" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="20"/>
+      <node ref="U1" pin="19"/>
+      <node ref="D2" pin="RA"/>
+      <node ref="D2" pin="BA"/>
+      <node ref="D2" pin="GA"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D3" pin="GA"/>
+      <node ref="D4" pin="RA"/>
+      <node ref="D1" pin="RA"/>
+      <node ref="D3" pin="RA"/>
+      <node ref="D3" pin="BA"/>
+      <node ref="D4" pin="BA"/>
+      <node ref="P1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="D1" pin="BA"/>
+      <node ref="D1" pin="GA"/>
+      <node ref="D4" pin="GA"/>
+    </net>
+    <net code="2" name="/LED2_B">
+      <node ref="U1" pin="15"/>
+      <node ref="D3" pin="BC"/>
+    </net>
+    <net code="3" name="/LED2_G">
+      <node ref="U1" pin="14"/>
+      <node ref="D3" pin="GC"/>
+    </net>
+    <net code="4" name="/LED2_R">
+      <node ref="U1" pin="13"/>
+      <node ref="D3" pin="RC"/>
+    </net>
+    <net code="5" name="/IREF">
+      <node ref="U1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="6" name="/LED1_B">
+      <node ref="U1" pin="8"/>
+      <node ref="D2" pin="BC"/>
+    </net>
+    <net code="7" name="/LED1_G">
+      <node ref="U1" pin="7"/>
+      <node ref="D2" pin="GC"/>
+    </net>
+    <net code="8" name="/LED1_R">
+      <node ref="U1" pin="6"/>
+      <node ref="D2" pin="RC"/>
+    </net>
+    <net code="9" name="/Control_SCKO">
+      <node ref="P2" pin="3"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="10" name="/Control_SDTO">
+      <node ref="U1" pin="12"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="Q1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="P2" pin="1"/>
+      <node ref="P1" pin="5"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="ThP"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="12" name="/LED3_B">
+      <node ref="D4" pin="BC"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="13" name="/LED3_G">
+      <node ref="D4" pin="GC"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="14" name="/LED3_R">
+      <node ref="U1" pin="16"/>
+      <node ref="D4" pin="RC"/>
+    </net>
+    <net code="15" name="/Control_SDTI">
+      <node ref="U1" pin="9"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="16" name="/Control_SCKI">
+      <node ref="P1" pin="3"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="17" name="/LED0_R">
+      <node ref="D1" pin="RC"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="18" name="/LED0_G">
+      <node ref="U1" pin="4"/>
+      <node ref="D1" pin="GC"/>
+    </net>
+    <net code="19" name="/LED0_B">
+      <node ref="U1" pin="5"/>
+      <node ref="D1" pin="BC"/>
+    </net>
+    <net code="20" name="/LED_IR_PW-">
+      <node ref="R4" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="21" name="/display_BGL_sig">
+      <node ref="Q1" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="22" name="/LED_IR">
+      <node ref="R2" pin="1"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="23" name="/LED_IR_PW-_R">
+      <node ref="R4" pin="1"/>
+      <node ref="D5" pin="2"/>
+    </net>
+  </nets>
+</export>
