@@ -7,6 +7,8 @@ small round PCB with TI TLC5971 12ch 16bit LED-driver and NICHIA NSSM124AT RGB-L
 ![LED Board 3D view top](export/LED_Board_PCB_brd_3D.png)
 ![LED Board 3D view top](export/LED_Board_PCB_brd_3D_2.png)
 
+<img style="width:100%" alt="PinOut / Pin Info" src="doc/LED_Board_PinInfo.svg">
+
 <!-- file format / software information -->
 ## used software:  
     Application: kicad  
